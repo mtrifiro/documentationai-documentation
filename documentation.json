@@ -11,12 +11,28 @@
   "navigation": {
     "pages": [
       {
-        "title": "The Almost Right Problem",
-        "path": "the-almost-right-problem"
+        "title": "Contrast",
+        "path": "contrast"
       },
       {
-        "title": "Positioning Angles",
-        "path": "positioning-angles"
+        "title": "Category",
+        "path": "category"
+      },
+      {
+        "title": "Fewer Questions",
+        "path": "fewer-questions"
+      },
+      {
+        "title": "The Trust Gap",
+        "path": "the-trust-gap"
+      },
+      {
+        "title": "Safe by Construction",
+        "path": "safe-by-construction"
+      },
+      {
+        "title": "Almost Right",
+        "path": "almost-right"
       }
     ]
   }
