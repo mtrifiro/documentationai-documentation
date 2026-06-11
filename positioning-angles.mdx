@@ -1,0 +1,108 @@
+---
+title: Positioning Angles
+---
+## Tier A — lead with these
+
+| #      | Angle                                                                                                                                      | Why it wins                                                                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **6**  | <a href="6. The Contrast Angle" target="_blank" rel="noopener noreferrer">Contrast</a>                                                     | *"Most frameworks assume a careful human. Reboot assumes an AI agent."* The cleanest one-liner in the set. AX is also for agents but makes no claim about absorbing naive code. This sentence does.            |
+| **16** | <a href="16. The Product Angle" target="_blank" rel="noopener noreferrer">Product</a>                                                      | *Entities and actions — nouns and verbs.* The structural moat against AX. Programming-model vocabulary, not orchestration vocabulary.                                                                          |
+| **13** | <a href="13. The Naive Code Correct System Angle" target="_blank" rel="noopener noreferrer">Naive Code, Correct System</a>                 | Canon. Best technical-audience version. Pairs with #16 — entities/actions is *how* you write naive code that yields a correct system.                                                                          |
+| **22** | <a href="22. The Engineering-Leader Angle" target="_blank" rel="noopener noreferrer">Engineering-Leader</a>                                | Names a buyer, a budget moment, a triggering condition. *"What you adopt when your team starts shipping more AI-written code than human-written."* Fills the buyer-specificity gap the prior critique flagged. |
+| **14** | <a href="14. The Historical Angle" target="_blank" rel="noopener noreferrer">Historical</a>                                                | *OS absorbed memory, DB absorbed durability, browser absorbed rendering, Reboot absorbs distributed correctness.* The conviction slide. CTOs nod.                                                              |
+| **23** | <a href="23. The Stop Reviewing Start Constraining Angle" target="_blank" rel="noopener noreferrer">Stop Reviewing, Start Constraining</a> | *Replace "someone will catch it" with "no one will."* The operational pitch for the eng leader. Pairs with #22.                                                                                                |
+| **15** | <a href="15. The Skeptic-Disarming Angle" target="_blank" rel="noopener noreferrer">Skeptic-Disarming</a>                                  | *"Not a better way to prompt an agent. Not a smarter code reviewer."* Cuts through the agent-tooling noise floor in the first 30 seconds.                                                                      |
+
+**Recommended lead combination:** #6 (headline) + #16 (product noun) + #13 (technical claim) + #22 (buyer). A complete 30-second pitch.
+
+---
+
+## Tier B — supporting slides for specific audiences
+
+These work as second-position slides, never as the headline.
+
+| #      | Angle                                                                                                                               | Best use                                                                                                                                                        |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**  | <a href="1. ⭐️ The Almost-Right Problem angle" target="_blank" rel="noopener noreferrer">Almost-Right Problem</a>                   | Problem slide for any technical audience. Pairs with #16 as solution.                                                                                           |
+| **3**  | <a href="3. The Trust Gap Angle" target="_blank" rel="noopener noreferrer">Trust Gap</a>                                            | CTOs / heads of platform. "3am under load" lands.                                                                                                               |
+| **7**  | <a href="7. The Bug-Prevention Angle" target="_blank" rel="noopener noreferrer">Bug-Prevention</a>                                  | Engineering managers. The bug list (duplicate charges, lost writes, stale reads, 3am batch crashes) is the most concrete sentence in the set.                   |
+| **8**  | <a href="8. The Locally Correct Globally Wrong Angle" target="_blank" rel="noopener noreferrer">Locally Correct, Globally Wrong</a> | Canon phrase. Pairs naturally with #6.                                                                                                                          |
+| **9**  | <a href="9. The Developer-Facing Angle" target="_blank" rel="noopener noreferrer">Developer-Facing</a>                              | DX-led demos. The *feel* of using Reboot.                                                                                                                       |
+| **10** | <a href="10. The Blunt One-Liner Angle" target="_blank" rel="noopener noreferrer">Blunt One-Liner</a>                               | Social posts, hallway pitches. *"Bottleneck isn't writing more code — it's trusting the code."*                                                                 |
+| **12** | <a href="12. The Economic Angle" target="_blank" rel="noopener noreferrer">Economic</a>                                             | Operators and CFOs. *"Bottleneck has moved from production to verification."* Frames the budget.                                                                |
+| **17** | <a href="17. The What Breaks Today Angle" target="_blank" rel="noopener noreferrer">What Breaks Today</a>                           | Demo-script generator. Each sentence is a runnable scenario.                                                                                                    |
+| **18** | <a href="18. The First-Principles Angle" target="_blank" rel="noopener noreferrer">First-Principles</a>                             | Academic / engineering-purist objections. *"Careful programmer or careful runtime. Reboot picks the runtime."*                                                  |
+| **25** | <a href="25. ⭐️ The Agents Need a Target Angle" target="_blank" rel="noopener noreferrer">Agents Need a Target</a>                  | Agent-builders as audience. Inverts the typical pitch — *the agent is your customer, not your competitor.*                                                      |
+| **29** | <a href="29. The Security Angle" target="_blank" rel="noopener noreferrer">Security</a>                                             | CISOs. *Race condition = TOCTOU, retry duplication = replay attack, lost write = state corruption.* Opens a buying center no other angle opens. **Underrated.** |
+| **30** | <a href="30. The What Couldnt Be Built Before Angle" target="_blank" rel="noopener noreferrer">What Couldn't Be Built Before</a>    | Vision close. *"Solo founders ship fintech."* Wins the conviction round.                                                                                        |
+| **31** | <a href="31. The Observability Angle" target="_blank" rel="noopener noreferrer">Observability</a>                                   | Sub-bullet, not headline. *"The runtime is the system of record."*                                                                                              |
+| **34** | <a href="34. The Data-Model Angle" target="_blank" rel="noopener noreferrer">Data-Model</a>                                         | Senior backend engineers, DDD-literate audiences. *"Closer to domain-driven design than ORM-style modeling."*                                                   |
+| **36** | <a href="36. The Testing Angle" target="_blank" rel="noopener noreferrer">Testing</a>                                               | Consequence slide, after the buyer believes the runtime claim. *"Test suite collapses to cover only business logic."*                                           |
+| **37** | <a href="37. The Migration Angle" target="_blank" rel="noopener noreferrer">Migration</a>                                           | Procurement. Strangler pattern is necessary; it's never a wedge.                                                                                                |
+| **32** | <a href="32. The When Not Reboot Angle" target="_blank" rel="noopener noreferrer">When Not Reboot</a>                               | Credibility utility. Stating non-scope earns trust — never the lead.                                                                                            |
+
+---
+
+## Tier C — weak, generic, or cliché-adjacent
+
+These don't earn their slot.
+
+| #      | Angle                                                                                                | Problem                                                                                                                                                      |
+| ------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **5**  | <a href="5. The Category Angle" target="_blank" rel="noopener noreferrer">Category</a>               | *"A new category of runtime for the era when most code is written by AI."* Vague. After AX, "new category" is contested.                                     |
+| **20** | <a href="20. The Metaphor Angle" target="_blank" rel="noopener noreferrer">Metaphor (guardrails)</a> | The guardrails metaphor is exhausted in AI discourse. Signals "couldn't find a real differentiator."                                                         |
+| **21** | <a href="21. The What Changed Angle" target="_blank" rel="noopener noreferrer">What Changed</a>      | Wandering. The point — *"runtime stops trusting the code"* — is buried under setup. Compresses into #6 or #18.                                               |
+| **24** | <a href="24. The Plain-English Angle" target="_blank" rel="noopener noreferrer">Plain-English</a>    | *"A tool that makes AI-written backends actually work in the real world."* Too soft for Reboot voice. Reads like marketing copy from any infra company. Cut. |
+| **27** | <a href="27. The Whats the Moat Angle" target="_blank" rel="noopener noreferrer">Moat</a>            | *"The runtime that enforces correctness becomes the most valuable layer."* True. Also what every infra founder has said since 1995. Doesn't differentiate.   |
+| **28** | <a href="28. The Blunt Angle" target="_blank" rel="noopener noreferrer">Blunt</a>                    | *"Runtime that makes bad code safe."* Memorable as a hallway line. Wrong for any document the founder signs. Keep for tweets.                                |
+| **38** | <a href="38. The AI-Safety Angle" target="_blank" rel="noopener noreferrer">AI-Safety</a>            | The AI-safety vocabulary is loaded with alignment-research baggage. Enterprise buyers will misread. Substance right; vocabulary misleads.                    |
+
+---
+
+## Tier D — must revise in light of review
+
+The premises need reviewing.
+
+| #      | Angle                                                                                                             | What broke                                                                                                                                                                                                                                                                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **2**  | <a href="2. The Substrate Angle" target="_blank" rel="noopener noreferrer">Substrate</a>                          | "Substrate" is now **Google's word** — *Agent Substrate* is the GKE product name. Leading with "Reboot is the substrate underneath AI-written code" reads as a me-too. **Revise** to specify *what kind* of substrate (entities-and-actions, correctness). The bare word is contaminated.                               |
+| **19** | <a href="19. The Investor-Pitch Angle" target="_blank" rel="noopener noreferrer">Investor Pitch</a>               | *"The runtime layer for the agent-written software stack"* — this is AX's pitch in one sentence. **Revise** to foreground programming model: *"the language and runtime that make AI-written code correct by construction."*                                                                                            |
+| **26** | <a href="26. The Kubernetes-Comparison Angle" target="_blank" rel="noopener noreferrer">Kubernetes Comparison</a> | AX is already the K8s-native distributed-agent runtime. The K8s analogy now pulls you into AX's bucket instead of out of it. **Use carefully.** Better: *Reboot is to AI-written code what the type system was to runtime errors* — structural prevention, not orchestration.                                           |
+| **33** | <a href="33. The Hyperscaler Defense Angle" target="_blank" rel="noopener noreferrer">Hyperscaler Defense</a>     | *"AWS will not build this."* Outdated. **Google did.** Defense has to address AX specifically. **Rewrite:** AX is orchestration — controller and event log. Reboot is the programming model that runs on top of, alongside, or instead of it. Hyperscalers build orchestrators; they don't build programming languages. |
+| **35** | <a href="35. The Competitive Landscape Angle" target="_blank" rel="noopener noreferrer">Competitive Landscape</a> | *"Restate, Temporal, Convex, DBOS, Inngest, Modal."* AX missing. **Add AX, restate the distinction:** substrate-vs-library was the old line. The new line is substrate-vs-orchestrator-vs-programming-model. Three layers, not two.                                                                                     |
+
+---
+
+## The synthesis
+
+A single deck, drawn entirely from this set:
+
+1. **Open with #15** — cut through the noise floor before the audience pattern-matches to the wrong category.
+
+2. **Problem with #1 + #7** — almost-right code, named bug list. Concrete.
+
+3. **Frame with #6** — *Most frameworks assume a careful human. Reboot assumes an agent.*
+
+4. **Solution with #16 + #13** — entities and actions. Naive code, correct system. **The AX-differentiating slide.**
+
+5. **Conviction with #14** — OS, database, browser, Reboot.
+
+6. **Buyer with #22 + #23** — eng leaders who can't review what their team ships.
+
+7. **Vision with #30** — solo founders ship fintech.
+
+8. **Defense (against AX specifically) with revised #33** — programming model, not orchestrator.
+
+The other 30 angles are not waste. They are the **sales toolkit** — the right framing for the CISO call (#29), the platform-engineering call (#3), the DDD-literate backend lead (#34), the agent-builder partner (#25), the procurement conversation (#37), the credibility line in the demo (#32).
+
+---
+
+---
+
+## The rule
+
+The angles that earn their slot share a property: they make a **claim about the layer Reboot occupies** that an orchestrator cannot make. Programming model. Entities and actions. Naive code. By construction. Locally correct, globally wrong. These are language-design claims, not infrastructure claims.
+
+The angles that don't earn their slot make claims any infra company can make: *new category, runtime for the agent era, makes bad code safe, enforces correctness.* True for AX. True for Temporal. True for whatever Anthropic ships next quarter.
+
+**The test:** if AX's README could honestly include the sentence, cut it from yours.
